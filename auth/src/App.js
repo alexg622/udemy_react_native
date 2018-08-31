@@ -3,7 +3,7 @@ import { View } from 'react-native'
 import firebase from 'firebase'
 import { Header } from './components/common'
 import LoginForm from './components/LoginForm'
-import { keys } from '../keys'
+import { keys } from '../keys/keys'
 // add something
 class App extends Component {
   state = { loggedIn: false }
