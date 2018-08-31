@@ -4,7 +4,7 @@ import firebase from 'firebase'
 import { Header } from './components/common'
 import LoginForm from './components/LoginForm'
 import { keys } from '../keys'
-
+// add something
 class App extends Component {
   state = { loggedIn: false }
 
@@ -30,7 +30,7 @@ class App extends Component {
    return (
      <View>
        <Header headerText="Authentication" />
-       <LoginForm /> 
+       <LoginForm />
      </View>
    );
   }
