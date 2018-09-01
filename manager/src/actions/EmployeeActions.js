@@ -4,8 +4,8 @@ import {
 from './types'
 
 export const employeeUpdate = ({ prop, value }) => {
-  return (
+  return {
     type: EMPLOYEE_UPDATE,
     payload: { prop, value }
-  )
+  }
 }
