@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { ListView } from 'react-native'
+import { ListView, Modal } from 'react-native'
 import { employeesFetch } from '../actions'
 import { connect } from 'react-redux'
 import ListItem from './ListItem'
